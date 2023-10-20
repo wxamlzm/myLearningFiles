@@ -1,0 +1,5 @@
+[includeIf "gitdir/i:d:/projects/test1-projects/"]
+  path = ~/.gitconfig-github.gitconfig
+
+[includeIf "gitdir/i:d:/projects/test2-projects/"]
+  path = ~/.gitconfig-gitlab.gitconfig
