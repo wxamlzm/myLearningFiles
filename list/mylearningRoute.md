@@ -2,7 +2,7 @@
  * @Author: zd
  * @Date: 2023-10-19 10:26:32
  * @LastEditors: zd
- * @LastEditTime: 2023-10-19 14:52:09
+ * @LastEditTime: 2023-10-20 09:57:14
  * @FilePath: \learningFiles\list\mylearningRoute.md
  * @Description: 
 -->
@@ -26,3 +26,5 @@
   5. 2022年依旧是从《C++面向对象高效编程 第2版》结合自己的项目经验，逐步开始理解代码规范和设计模式;
   6. 回归初始，重新看《JavaScript权威指南(第七版)》来校对和加深js基础的概念认知;
   7. 2022下半年开始一点点啃vue2的源码;
+  8. 2023年开始完成VUE3项目
+  9. 2023下半年因求职需要，开始学习React
