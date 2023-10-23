@@ -1,0 +1,21 @@
+## vue2
+
+- 期望能通过了解 vue2 的源码，更好的在 vue2 项目构建中进行配置;
+- 文意为当前的理解，可能有误，2023 年 10 月 23 日
+
+## main.js
+
+- 对于 vue-cli 构建来讲非常熟悉的文件，一般作为业务开发几乎不会动，但到了自己通过 webpack 手动配置 vue 时发现，这个目录其实是 webpack 例子里的 index.js 的作用;
+
+## new Vue()
+
+- 以下代码为创建vue的实例，是vue范畴，但写在main.js里，应该是利用webpack来运行或者说打包vue的实例，所以是两者的交集
+- 其中App.vue是vue组件，render函数是vue的渲染函数，h函数是vue的虚拟dom函数，el是vue的挂载点
+```
+import Vue from 'vue'
+import App from './App.vue'
+new Vue({
+    el: '#app',
+    render: h => h(App)
+})
+```
