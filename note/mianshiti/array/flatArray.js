@@ -2,8 +2,8 @@
  * @Author: zd
  * @Date: 2023-11-23 14:47:43
  * @LastEditors: zd
- * @LastEditTime: 2023-11-23 14:51:00
- * @FilePath: \learningFiles\note\面试题\js\faltArray.js
+ * @LastEditTime: 2023-11-23 15:11:49
+ * @FilePath: \learningFiles\note\mianshiti\array\flatArray.js
  * @Description: 将数组扁平化并去除其中的重复数据，最终的到一个升序且不重复的数组
  */
 
@@ -20,5 +20,11 @@ function flattenArray (arr) {
   }, [])
 }
 
-const newArranty = flattenArray(arr)
-console.log(newArranty)
+function uniqueArray (arr) {
+  return Array.from(new Set(arr))
+}
+
+let newArray = flattenArray(arr)
+newArray = uniqueArray(newArray)
+newArray.sort((a, b) => a - b)
+console.log(newArray)
