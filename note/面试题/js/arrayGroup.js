@@ -2,7 +2,7 @@
  * @Author: zd
  * @Date: 2023-11-22 15:12:05
  * @LastEditors: zd
- * @LastEditTime: 2023-11-22 16:01:09
+ * @LastEditTime: 2023-11-23 14:44:43
  * @FilePath: \learningFiles\note\面试题\js\arrayGroup.js
  * @Description: 列表转成树形结构
  */
@@ -15,3 +15,5 @@ let arr = [
   { id: 5, name: '部门5', pid: 4 },
   { id: 6, name: '部门6', pid: 0 }
 ]
+
+// 20231123error1
