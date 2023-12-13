@@ -2,7 +2,7 @@
  * @Author: zd
  * @Date: 2023-12-13 14:38:24
  * @LastEditors: zd
- * @LastEditTime: 2023-12-13 16:19:52
+ * @LastEditTime: 2023-12-13 16:37:33
  * @Description: about unit testing
 -->
 ## what
@@ -15,3 +15,5 @@
 
 ## how
 - vue中而言，可以根据官方文档介绍，用jest和webpack + Mocha两套方案先开始进行，深入了解后再选择自己的期望方案
+
+- 
