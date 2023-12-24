@@ -22,3 +22,6 @@ new Vue({
 <!-- - 找到了vue中$mount的源码，但现阶段无法完成吃透这么长链条的构造链，就先到这里吧 -->
 - App.vue 作为我们编写的根 Vue 组件,其模板中的 id="app" 不是必须的,通常vue-cli的App.vue的id是#app，应该是统一性用词的习惯;而一直以来我这边误解了，实质上new Vue()的el的#app，是用于寻找index.html中的Dom，以用于vue的注入的;
 - 然后根据统一性用词的原则，因为App.vue和index.html实质上的确是业务期望一致的两个，所以在id上通过vue-cli定位为了一样的
+
+## cli指令
+- `vue add @vue/cli-plugin-unit-jest` 用于添加单元测试；会附加配置;
