@@ -1,0 +1,18 @@
+graph TD
+    A[用户界面层 - UI Components]
+    B[视图模型层 - View Models / Composition API]
+    C[服务层 - Services]
+    D[API层 - API Clients]
+    E[状态管理层 - State Management]
+    F[工具层 - Utils]
+    G[配置层 - Config]
+
+    A --> B
+    B --> C
+    B --> E
+    C --> D
+    C --> E
+    C --> F
+    D --> G
+    E --> F
+    F --> G
